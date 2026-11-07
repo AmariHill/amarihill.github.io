@@ -459,7 +459,7 @@ select.m-field__input option { background: var(--color-7); color: var(--color-2)
     height: 100vh;
     min-height: 560px;
     display: grid;
-    align-content: end;
+    align-content: safe end;
     padding: 120px var(--space-1) 28px;
   }
   #arrival .op-hold { position: absolute; inset: 0; overflow: hidden; }
@@ -499,7 +499,7 @@ select.m-field__input option { background: var(--color-7); color: var(--color-2)
   #arrival .op-fog--2 { left: 52%; width: 60%; top: -1.5%; height: 8%; }
   #arrival .op-fog--3 { left: 18%; width: 64%; top: 1%; height: 6%; background: radial-gradient(closest-side, color-mix(in oklab, var(--color-6) 30%, transparent), transparent); }
   #arrival .op-hero { position: relative; z-index: 2; display: grid; gap: 26px; max-width: 760px; margin-bottom: clamp(48px, 12vh, 132px); }
-  #arrival .op-hero h1 { max-width: 5.4em; }
+  #arrival .op-hero h1 { max-width: 9em; font-size: clamp(40px, min(6.4vw, 10.5vh), 96px); }
   #arrival .op-hero p { max-width: 21em; }
   #arrival .op-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 32px; }
   #arrival .op-readings {
