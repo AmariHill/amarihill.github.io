@@ -10,15 +10,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Brume — sauna and bathing house on Ellery Water</title>
-<meta name="description" content="Brume is a day spa with four saunas and a cold lake on the north shore of Ellery Water. Heat, cold and the quiet after — book a morning, a full day or an evening.">
+<title>Amari R. Hill — NYU Center for Genomics and Systems Biology</title>
+<meta name="description" content="Amari R. Hill, Ph.D. candidate in Biology at NYU's Center for Genomics and Systems Biology (Coruzzi Lab), studying the gene networks behind nitrogen use efficiency in plants.">
 <meta name="generator" content="8B Templates">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Brume — sauna and bathing house on Ellery Water">
-<meta property="og:description" content="Brume is a day spa with four saunas and a cold lake on the north shore of Ellery Water. Heat, cold and the quiet after — book a morning, a full day or an evening.">
-<meta property="og:image" content="https://your-domain.example/preview.png" data-8b-placeholder="og-image">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2064%2064'%3E%3Crect%20width%3D'64'%20height%3D'64'%20rx%3D'14'%20fill%3D'%230b0906'%2F%3E%3Ctext%20x%3D'32'%20y%3D'45'%20font-family%3D'Arial%2CHelvetica%2Csans-serif'%20font-size%3D'38'%20font-weight%3D'700'%20text-anchor%3D'middle'%20fill%3D'%23d0703f'%3EB%3C%2Ftext%3E%3C%2Fsvg%3E" data-8b-placeholder="favicon">
+<meta property="og:title" content="Amari R. Hill — NYU Center for Genomics and Systems Biology">
+<meta property="og:description" content="Amari R. Hill, Ph.D. candidate in Biology at NYU's Center for Genomics and Systems Biology (Coruzzi Lab), studying the gene networks behind nitrogen use efficiency in plants.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2064%2064'%3E%3Crect%20width%3D'64'%20height%3D'64'%20rx%3D'14'%20fill%3D'%230b0906'%2F%3E%3Ctext%20x%3D'32'%20y%3D'45'%20font-family%3D'Arial%2CHelvetica%2Csans-serif'%20font-size%3D'38'%20font-weight%3D'700'%20text-anchor%3D'middle'%20fill%3D'%23d0703f'%3EA%3C%2Ftext%3E%3C%2Fsvg%3E" data-8b-placeholder="favicon">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>
 /* cyrillic-ext */
@@ -405,7 +404,9 @@ select.m-field__input option { background: var(--color-7); color: var(--color-2)
   #header .hd-mark i { display: block; height: 1px; background: currentColor; }
   #header .hd-mark i:nth-child(2) { width: 70%; margin-left: 30%; }
   #header .hd-mark i:nth-child(3) { width: 45%; }
-  #header .hd-word { font-size: 15px; letter-spacing: .42em; text-transform: uppercase; font-weight: 500; line-height: 1; }
+  #header .hd-word { font-size: 15px; letter-spacing: .42em; text-transform: uppercase; font-weight: 500; line-height: 1; white-space: nowrap; }
+  #header .hd-book .m-btn__label { white-space: nowrap; }
+  @media (max-width: 479px) { #header .hd-book { display: none; } #header .hd-word { letter-spacing: .2em; } }
   #header .hd-nav ul { display: flex; gap: clamp(18px, 2.4vw, 36px); }
   #header .hd-menu { display: none; }
   @media (max-width: 1023px) {
@@ -1012,36 +1013,37 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
 </head>
 <body>
 <a class="visually-hidden" href="#main">Skip to content</a>
-<!-- navigation: fixed bar with a three-bar mark and wordmark, five section links, a Book a day button and a menu button with an overlay -->
+<!-- navigation: fixed bar with a three-bar mark and wordmark, five section links, a Get in touch button and a menu button with an overlay -->
 <header id="header" data-8b-section="navigation">
-  <a class="hd-logo" href="#arrival" aria-label="Brume, back to the top"><span class="hd-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="hd-word">Brume</span></a>
+  <a class="hd-logo" href="#arrival" aria-label="Amari R. Hill, back to the top"><span class="hd-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="hd-word">Amari R. Hill</span></a>
   <nav class="hd-nav" aria-label="Main">
     <ul>
-      <li><a class="m-link-2" href="#round">The round</a></li>
-      <li><a class="m-link-2" href="#saunas">Saunas</a></li>
-      <li><a class="m-link-2" href="#day">A day</a></li>
-      <li><a class="m-link-2" href="#passes">Passes</a></li>
-      <li><a class="m-link-2" href="#visit">Visit</a></li>
+      <li><a class="m-link-2" href="#round">Approach</a></li>
+      <li><a class="m-link-2" href="#saunas">Toolkit</a></li>
+      <li><a class="m-link-2" href="#lake">Research</a></li>
+      <li><a class="m-link-2" href="#passes">Path</a></li>
+      <li><a class="m-link-2" href="#visit">Contact</a></li>
     </ul>
   </nav>
-  <a class="m-btn hd-book" href="#visit"><span class="m-btn__label">Book a day</span></a>
+  <a class="m-btn hd-book" href="#visit"><span class="m-btn__label">Get in touch</span></a>
   <button class="m-icon hd-menu" type="button" aria-expanded="false" aria-controls="menu"><span class="visually-hidden">Open menu</span><span class="m-icon__glyph" aria-hidden="true"></span></button>
   <div id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
     <div class="mn-top"><button class="m-icon mn-close" type="button"><span class="visually-hidden">Close menu</span><span class="m-icon__glyph m-icon__glyph--close" aria-hidden="true"></span></button></div>
     <ul class="mn-list">
-      <li><a href="#round">The round</a></li>
-      <li><a href="#saunas">Saunas</a></li>
-      <li><a href="#day">A day at Brume</a></li>
-      <li><a href="#passes">Passes</a></li>
+      <li><a href="#round">Approach</a></li>
+      <li><a href="#saunas">Toolkit</a></li>
+      <li><a href="#lake">Research</a></li>
+      <li><a href="#table">Selected work</a></li>
+      <li><a href="#passes">Path</a></li>
       <li><a href="#questions">Questions</a></li>
-      <li><a href="#visit">Visit &amp; book</a></li>
+      <li><a href="#visit">Contact</a></li>
     </ul>
-    <p class="mn-foot m-text-6"><span>Example Lane 1, Holm</span><span>Open daily 08:00–22:00</span></p>
+    <p class="mn-foot m-text-6"><span>NYU CGSB, 12 Waverly Place</span><span>New York, NY</span></p>
   </div>
 </header>
 <main id="main">
-<!-- opening: two screens: a lake under fog with the headline, intro, two actions and live-looking readings; then a warm rest room, a three-line heading and three floating photos (animation: scene:arrival) -->
-<section id="arrival" data-8b-section="opening" aria-label="Brume, sauna and bathing house">
+<!-- opening (animation: scene:arrival) -->
+<section id="arrival" data-8b-section="opening" aria-label="Amari R. Hill, NYU Center for Genomics and Systems Biology">
   <div class="op-stage-wrap"><div class="op-stage">
     <img class="op-room" src="https://images.unsplash.com/photo-1758861356142-546a3822ab1a?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTJ8fHNhdW5hJTIwaW50ZXJpb3IlMjB3aW5kb3d8ZW58MXwwfHx8MTc5MTM4NDEwMXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="A wood stove burning in the rest room, with a glass wall onto the lake and the pines" width="1600" height="1200" fetchpriority="low">
     <div class="op-room-shade"></div>
@@ -1055,25 +1057,25 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
       <div class="op-veil" aria-hidden="true"><span class="op-fog op-fog--1"></span><span class="op-fog op-fog--2"></span><span class="op-fog op-fog--3"></span></div>
     </div>
     <div class="op-hero">
-      <h1 class="m-text-2">Heat, cold, and the quiet after.</h1>
-      <p class="m-text-5">A sauna and bathing house on the north shore of Ellery Water. Four saunas, a lake that stays cold all year, and nothing you need to bring.</p>
+      <h1 class="m-text-2">Genomes, systems, and the questions between.</h1>
+      <p class="m-text-5">Amari R. Hill, Ph.D. candidate in Biology at NYU’s Center for Genomics and Systems Biology, studying the gene networks that decide how well plants use nitrogen.</p>
       <div class="op-actions">
-        <a class="m-btn" href="#visit"><span class="m-btn__label">Book a day</span></a>
-        <a class="m-link" href="#round"><span class="m-link__label">Walk the round</span></a>
+        <a class="m-btn" href="#visit"><span class="m-btn__label">Get in touch</span></a>
+        <a class="m-link" href="#round"><span class="m-link__label">See the approach</span></a>
       </div>
     </div>
     <dl class="op-readings">
-      <div><dt class="m-text-4">Sauna</dt><dd class="is-hot">86°</dd></div>
-      <div><dt class="m-text-4">Lake</dt><dd class="is-cold">7°</dd></div>
-      <div><dt class="m-text-4">Open today</dt><dd>08:00–22:00</dd></div>
+      <div><dt class="m-text-4">Lab</dt><dd class="is-hot">Coruzzi</dd></div>
+      <div><dt class="m-text-4">Center</dt><dd class="is-cold">CGSB</dd></div>
+      <div><dt class="m-text-4">Ph.D. since</dt><dd>2022</dd></div>
     </dl>
   </div>
   <div class="op-second">
-    <p class="m-rail">The house</p>
+    <p class="m-rail">About</p>
     <div class="op-copy">
-      <h2 class="m-text-3 op-title"><span class="op-line">Leave the city</span><span class="op-line">at the shore,</span><span class="op-line">come back slower</span></h2>
-      <p class="m-text">Brume began with a smoke sauna, a jetty and one rule: no phones past the changing room. Ten years on the rule has not changed. You move between heat and cold water until your head goes quiet, then rest by the stove and watch the mist lift off the lake.</p>
-      <a class="m-link" href="#house"><span class="m-link__label">How the house was built</span></a>
+      <h2 class="m-text-3 op-title"><span class="op-line">From the bench</span><span class="op-line">to the genome,</span><span class="op-line">and back again</span></h2>
+      <p class="m-text">I’m Amari R. Hill, a Ph.D. candidate in Biology at NYU, working in Prof. Gloria M. Coruzzi’s Plant Systems Biology Lab at the Center for Genomics and Systems Biology. I study how the gene regulatory networks behind nitrogen use efficiency carry over from the model plant Arabidopsis to rice, and how they can sharpen machine learning predictions in the lab and in the field. Before NYU, I earned B.S. degrees in Integrative Biology (cum laude) and Information Technology at Furman University.</p>
+      <a class="m-link" href="#saunas"><span class="m-link__label">See the toolkit</span></a>
     </div>
     <div class="op-floats">
       <figure class="m-photo op-float op-float--1" data-depth="160"><img src="https://images.unsplash.com/photo-1749561532113-80b8e0f918bd?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8d2F0ZXIlMjBwb3VyZWQlMjBzYXVuYSUyMHN0b25lc3xlbnwxfDF8fHwxNzkxMzg0MTg5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=290&q=60" alt="Steam rising from hot stones as water is poured from a ladle" width="1600" height="2400" loading="lazy"></figure>
@@ -1082,35 +1084,35 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
     </div>
   </div>
 </section>
-<!-- ritual: three steps of one round (heat, cold, rest) beside a held photo frame that opens into each in turn (animation: scene:round-frame) -->
+<!-- ritual: three steps of the research loop beside a held photo frame (animation: scene:round-frame) -->
 <section id="round" class="l-sec" data-8b-section="ritual" aria-labelledby="round-title">
-  <p class="m-rail">The round</p>
+  <p class="m-rail">Approach</p>
   <div class="rd-head">
-    <h2 id="round-title" class="m-text-3 rd-title"><span>One round,</span><span>three temperatures</span></h2>
-    <p class="m-text-5" data-8b-motion="steam">Bathers here follow an old order. Repeat it three or four times; nobody keeps count but you.</p>
+    <h2 id="round-title" class="m-text-3 rd-title"><span>One question,</span><span>three ways in</span></h2>
+    <p class="m-text-5" data-8b-motion="steam">Systems biology works best as a loop: measure, analyze, model, then go back to the bench with a sharper question.</p>
   </div>
   <div class="rd-body">
     <ol class="rd-steps" data-8b-items=":scope > .rd-step" data-8b-fixed="3">
       <li class="rd-step" data-tone="hot">
         <p class="rd-num m-text-4">Step 1</p>
-        <h3 class="m-text-7">Heat</h3>
-        <p class="m-text-5">Twelve minutes on the upper bench.</p>
-        <p class="m-text">Sit high and breathe slowly. Pour water on the stones when the room asks for it, and let the heat climb until your shoulders drop.</p>
-        <p class="rd-meta m-text-4">8–15 min · 80–95 °C</p>
+        <h3 class="m-text-7">Experiment</h3>
+        <p class="m-text-5">Start at the bench.</p>
+        <p class="m-text">Design the experiment around one sharp question, then build the samples, controls and replicates that can actually answer it.</p>
+        <p class="rd-meta m-text-4">Design · build · run</p>
       </li>
       <li class="rd-step" data-tone="cold">
         <p class="rd-num m-text-4">Step 2</p>
-        <h3 class="m-text-7">Cold</h3>
-        <p class="m-text-5">Twenty steps to the lake.</p>
-        <p class="m-text">Walk out along the jetty and go in to the shoulders. For one minute the cold shuts every thought out; that is the point of it.</p>
-        <p class="rd-meta m-text-4">1–2 min · 4–16 °C</p>
+        <h3 class="m-text-7">Sequence</h3>
+        <p class="m-text-5">Turn biology into data.</p>
+        <p class="m-text">Extract, prepare and sequence, so a living system becomes millions of reads that can be counted, compared and mapped.</p>
+        <p class="rd-meta m-text-4">DNA · RNA · reads</p>
       </li>
       <li class="rd-step" data-tone="still">
         <p class="rd-num m-text-4">Step 3</p>
-        <h3 class="m-text-7">Rest</h3>
-        <p class="m-text-5">As long as it takes.</p>
-        <p class="m-text">Wrap up by the stove, drink something warm and say nothing. The calm that arrives now is the reason you came.</p>
-        <p class="rd-meta m-text-4">15–20 min · by the window</p>
+        <h3 class="m-text-7">Model</h3>
+        <p class="m-text-5">Find the pattern, then test it.</p>
+        <p class="m-text">Analyze the data, build a model of how the parts fit together, and use it to predict the next experiment. Then back to step one.</p>
+        <p class="rd-meta m-text-4">Analyze · model · predict</p>
       </li>
     </ol>
     <div class="rd-aside">
@@ -1121,102 +1123,102 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
         <span class="rd-tint rd-tint--hot" aria-hidden="true"></span>
         <span class="rd-tint rd-tint--cold" aria-hidden="true"></span>
       </div>
-      <ul class="rd-labels m-text-4" aria-hidden="true"><li>Heat</li><li>Cold</li><li>Rest</li></ul>
+      <ul class="rd-labels m-text-4" aria-hidden="true"><li>Experiment</li><li>Sequence</li><li>Model</li></ul>
     </div>
   </div>
 </section>
-<!-- rooms: four rooms coldest to hottest as rows, each with a temperature, a line that runs out to it, text, facts and a photo (animation: scene:saunas-heat) -->
+<!-- rooms: four tools from wet lab to computation, each with a line along the bench-to-code spectrum (animation: scene:saunas-heat) -->
 <section id="saunas" class="l-sec" data-8b-section="rooms" aria-labelledby="saunas-title">
-  <p class="m-rail">Saunas</p>
+  <p class="m-rail">Toolkit</p>
   <div class="sa-head">
-    <h2 id="saunas-title" class="m-text-3"><span>Four rooms,</span><span>coldest to hottest</span></h2>
-    <p class="m-text-5" data-8b-motion="steam">Each room keeps its own heat and its own pace. Start low; the smoke sauna is for the third round.</p>
+    <h2 id="saunas-title" class="m-text-3"><span>Four tools,</span><span>bench to code</span></h2>
+    <p class="m-text-5" data-8b-motion="steam">The work runs from wet to dry. Each line shows where a tool sits on that spectrum.</p>
   </div>
   <ol class="sa-list" data-8b-items=":scope > .sa-row">
-    <li class="sa-row" data-tone="cold" style="--saunas-span-sa-line-clippath-to-2: 84%">
+    <li class="sa-row" data-tone="cold" style="--saunas-span-sa-line-clippath-to-2: 80%">
       <div class="sa-scale">
-        <data class="sa-temp m-text-5" value="16">4–16 °C</data>
+        <data class="sa-temp m-text-5" value="20">Wet</data>
         <div class="sa-track" aria-hidden="true"><span class="sa-line"></span></div>
       </div>
       <div class="sa-text">
-        <h3 class="m-text-7">The jetty</h3>
-        <p class="m-text">Open lake water off our own jetty, with a ladder and a rope line out to the buoys. In winter we keep a channel open through the ice.</p>
-        <dl class="sa-facts m-text-6"><div><dt>Stay</dt><dd>1–2 minutes</dd></div><div><dt>Depth</dt><dd>3.5 m at the ladder</dd></div></dl>
+        <h3 class="m-text-7">Molecular biology</h3>
+        <p class="m-text">Hands-on experimental work: preparing samples, running assays and keeping careful records so every result can be reproduced.</p>
+        <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Generating data</dd></div><div><dt>Tools</dt><dd>Western blot, C. elegans, antifungal assays</dd></div></dl>
       </div>
       <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1649178690667-e519628c015e?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Nnx8aWNlJTIwaG9sZSUyMGZyb3plbiUyMGxha2UlMjBzd2ltbWluZ3xlbnwxfDF8fHwxNzkxMzg0MTkwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=200&q=60" alt="Two swimmers in an ice channel on the lake at dusk" width="1600" height="2463" loading="lazy"></figure>
     </li>
-    <li class="sa-row" data-tone="warm" style="--saunas-span-sa-line-clippath-to-2: 52%">
+    <li class="sa-row" data-tone="warm" style="--saunas-span-sa-line-clippath-to-2: 55%">
       <div class="sa-scale">
-        <data class="sa-temp m-text-5" value="48">48 °C</data>
+        <data class="sa-temp m-text-5" value="45">Seq</data>
         <div class="sa-track" aria-hidden="true"><span class="sa-line"></span></div>
       </div>
       <div class="sa-text">
-        <h3 class="m-text-7">Herb steam</h3>
-        <p class="m-text">A tiled steam room scented with birch and juniper from the shore. Soft and wet, gentle enough for a first round.</p>
-        <dl class="sa-facts m-text-6"><div><dt>Stay</dt><dd>10–15 minutes</dd></div><div><dt>Seats</dt><dd>10</dd></div></dl>
+        <h3 class="m-text-7">Genomics</h3>
+        <p class="m-text">Library preparation and sequencing to read DNA and RNA at scale, from whole genomes to gene expression.</p>
+        <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Measuring the system</dd></div><div><dt>Tools</dt><dd>NGS, single-cell sequencing, 1000 Genomes data</dd></div></dl>
       </div>
       <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1660735699345-acf9a94cb271?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MXx8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=360&q=60" alt="A cloud of steam rolling off the stove in a pine-lined room" width="1600" height="1067" loading="lazy"></figure>
     </li>
-    <li class="sa-row" data-tone="hot" style="--saunas-span-sa-line-clippath-to-2: 20%">
+    <li class="sa-row" data-tone="hot" style="--saunas-span-sa-line-clippath-to-2: 25%">
       <div class="sa-scale">
-        <data class="sa-temp m-text-5" value="80">80 °C</data>
+        <data class="sa-temp m-text-5" value="75">Code</data>
         <div class="sa-track" aria-hidden="true"><span class="sa-line"></span></div>
       </div>
       <div class="sa-text">
-        <h3 class="m-text-7">Window sauna</h3>
-        <p class="m-text">A long glass wall faces the lake, so you watch the water you are about to walk into. Dry heat, three tiers, room for a conversation in whispers.</p>
-        <dl class="sa-facts m-text-6"><div><dt>Stay</dt><dd>8–12 minutes</dd></div><div><dt>Seats</dt><dd>14</dd></div></dl>
+        <h3 class="m-text-7">Bioinformatics</h3>
+        <p class="m-text">Pipelines that clean, align and quantify sequencing data, written to run on a computing cluster and be rerun by anyone.</p>
+        <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Turning reads into results</dd></div><div><dt>Tools</dt><dd>Linux, NYU high-performance computer</dd></div></dl>
       </div>
       <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1712659601630-df4ad47defc8?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=360&q=60" alt="Pale wooden benches beside a tall window onto the frozen lake" width="1600" height="1067" loading="lazy"></figure>
     </li>
     <li class="sa-row" data-tone="hot" style="--saunas-span-sa-line-clippath-to-2: 5%">
       <div class="sa-scale">
-        <data class="sa-temp m-text-5" value="95">95 °C</data>
+        <data class="sa-temp m-text-5" value="95">Model</data>
         <div class="sa-track" aria-hidden="true"><span class="sa-line"></span></div>
       </div>
       <div class="sa-text">
-        <h3 class="m-text-7">Smoke sauna</h3>
-        <p class="m-text">Heated for six hours with alder, aired, then sealed. A soft, deep heat and the smell of smoke on your skin all evening. Thursday to Sunday from three.</p>
-        <dl class="sa-facts m-text-6"><div><dt>Stay</dt><dd>As you can</dd></div><div><dt>Seats</dt><dd>8</dd></div></dl>
+        <h3 class="m-text-7">Systems modeling</h3>
+        <p class="m-text">Statistics, networks and models that connect the parts and make predictions worth testing back at the bench.</p>
+        <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Explaining the whole</dd></div><div><dt>Tools</dt><dd>Gene networks, XGBoost</dd></div></dl>
       </div>
       <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1743286159555-ea765c1bc5e6?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8M3x8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=360&q=60" alt="Dark log walls, hot stones and a water bucket in the smoke sauna" width="1600" height="1067" loading="lazy"></figure>
     </li>
   </ol>
 </section>
-<!-- statement: a five-line statement over a dark photo; a glow rises through it and the lines swell in weight (animation: scene:steam-wave) -->
+<!-- statement: a five-line statement over a dark photo (animation: scene:steam-wave) -->
 <section id="steam" data-8b-section="statement" aria-labelledby="steam-title">
   <div class="st-bg"><img src="https://images.unsplash.com/photo-1660735697672-46b9bdbccc17?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Nnx8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="" width="1600" height="1067" loading="lazy"></div>
   <div class="st-inner l-sec">
-    <p class="m-rail">Löyly</p>
+    <p class="m-rail">Why</p>
     <div>
       <h2 id="steam-title" class="m-text-2 st-lines">
         <span class="st-glow" aria-hidden="true"></span>
-        <span class="st-line" style="--len:20">Water on the stones.</span>
-        <span class="st-line" style="--len:16">A breath of heat</span>
-        <span class="st-line" style="--len:21">rolls off the ceiling</span>
-        <span class="st-line" style="--len:12">and the room</span>
-        <span class="st-line" style="--len:11">goes quiet.</span>
+        <span class="st-line" style="--len:12">Every genome</span>
+        <span class="st-line" style="--len:12">is a system,</span>
+        <span class="st-line" style="--len:16">and every system</span>
+        <span class="st-line" style="--len:11">has a story</span>
+        <span class="st-line" style="--len:14">worth reading.</span>
       </h2>
-      <p class="m-text st-note" data-8b-motion="steam">In Finnish this breath is called löyly. Our sauna masters pour every twenty minutes, with birch, mint or tar, and nobody speaks while it settles.</p>
+      <p class="m-text st-note" data-8b-motion="steam">Systems biology looks past single genes to the networks they form: how thousands of parts, working together, add up to something alive.</p>
     </div>
   </div>
 </section>
-<!-- lake: a wide photo of the boardwalk into fog beside a heading, a paragraph and four facts -->
+<!-- lake: current research, a wide photo beside a heading, a paragraph and four facts -->
 <section id="lake" class="l-sec" data-8b-section="lake" aria-labelledby="lake-title">
-  <p class="m-rail">The lake</p>
+  <p class="m-rail">Research</p>
   <figure class="m-photo lk-photo" data-8b-motion="depth"><img src="https://images.unsplash.com/photo-1468258189056-318bbd4b6085?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8Zm9nZ3klMjBwaW5lJTIwZm9yZXN0JTIwbGFrZXxlbnwxfDB8fHwxNzkxMzg0MTI3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1090&q=60" alt="The boardwalk across the reeds disappearing into fog and pines" width="1600" height="1067" loading="lazy"></figure>
   <div class="lk-copy">
-    <h2 id="lake-title" class="m-text-3"><span>The fifth room</span><span>has no walls</span></h2>
-    <p class="m-text" data-8b-motion="steam">Ellery Water is fed by springs and stays cold even in August. A boardwalk crosses the reeds to our jetty, the ladder goes down three and a half metres, and from December a stove burns at the end of the ice channel.</p>
+    <h2 id="lake-title" class="m-text-3"><span>What I’m</span><span>working on</span></h2>
+    <p class="m-text" data-8b-motion="steam">Nitrogen and water shape crop yield, and the regulatory networks that respond to each work together. Using transcription factor target data (TARGET) from Arabidopsis and rice, I look for nitrogen-use-efficiency regulons conserved from model plant to crop, then use them to improve machine learning predictions of how efficiently plants use nitrogen. The approach is the subject of a provisional U.S. patent application filed in 2025.</p>
     <ul class="lk-facts m-text" data-8b-motion="steam" data-steam-items=":scope > li" data-8b-items=":scope > li">
-      <li>Boardwalk to the jetty, sixty-four metres</li>
-      <li>Ladder and rope line out to the buoys</li>
-      <li>Ice channel from December to March</li>
-      <li>A lifeguard on the jetty at weekends</li>
+      <li>Lab: Plant Systems Biology, Prof. Gloria M. Coruzzi</li>
+      <li>Plants: Arabidopsis and rice</li>
+      <li>Methods: TF target data, gene networks, XGBoost</li>
+      <li>Patent: U.S. App. No. 63/793,851 (provisional)</li>
     </ul>
   </div>
 </section>
-<!-- schedule: six hours of the day over a held lake photo that goes from morning mist to night; the hour at the middle of the screen lights up (animation: scene:day-light) -->
+<!-- schedule: six times of a lab day over a held photo that goes from morning to night (animation: scene:day-light) -->
 <section id="day" data-8b-section="schedule" aria-labelledby="day-title">
   <div class="dy-stage-wrap"><div class="dy-stage">
     <img class="dy-photo dy-morning" src="https://images.unsplash.com/photo-1761880702819-b2ba3973d00d?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8Zm9nZ3klMjBwaW5lJTIwZm9yZXN0JTIwbGFrZXxlbnwxfDB8fHwxNzkxMzg0MTI3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="Morning mist over the lake and the pines on the far shore" width="1600" height="1067" loading="lazy">
@@ -1227,30 +1229,29 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
   </div></div>
   <div class="dy-content l-sec">
     <p class="m-rail">A day</p>
-    <h2 id="day-title" class="m-text-3"><span>A day at Brume,</span><span>mist to lanterns</span></h2>
+    <h2 id="day-title" class="m-text-3"><span>A day at CGSB,</span><span>bench to terminal</span></h2>
     <ol class="dy-hours" data-8b-items=":scope > .dy-hour">
-      <li class="dy-hour"><time class="m-text-7" datetime="08:00">08:00</time><p class="m-text">Doors open with the mist still on the water. Coffee and rye bread by the stove.</p></li>
-      <li class="dy-hour"><time class="m-text-7" datetime="10:30">10:30</time><p class="m-text">First round. The window sauna is quiet and the lake lies flat as glass.</p></li>
-      <li class="dy-hour"><time class="m-text-7" datetime="13:00">13:00</time><p class="m-text">Lunch at the long table: soup of the day, smoked trout, pickles from the cellar.</p></li>
-      <li class="dy-hour"><time class="m-text-7" datetime="15:00">15:00</time><p class="m-text">The smoke sauna opens. Our sauna masters pour with birch, mint and tar.</p></li>
-      <li class="dy-hour"><time class="m-text-7" datetime="18:30">18:30</time><p class="m-text">Lanterns go out along the jetty and the evening swimmers arrive from town.</p></li>
-      <li class="dy-hour"><time class="m-text-7" datetime="22:00">22:00</time><p class="m-text">Last call at the stove. The house goes dark and the lake keeps the quiet.</p></li>
+      <li class="dy-hour"><time class="m-text-7" datetime="08:30">08:30</time><p class="m-text">Coffee, new papers and preprints, and a plan for the day.</p></li>
+      <li class="dy-hour"><time class="m-text-7" datetime="10:00">10:00</time><p class="m-text">Bench work while the lab is still quiet: setting up the day’s experiments.</p></li>
+      <li class="dy-hour"><time class="m-text-7" datetime="12:30">12:30</time><p class="m-text">Lab meeting or a seminar somewhere in the building.</p></li>
+      <li class="dy-hour"><time class="m-text-7" datetime="14:00">14:00</time><p class="m-text">Analysis on the cluster while samples move through the pipeline.</p></li>
+      <li class="dy-hour"><time class="m-text-7" datetime="17:00">17:00</time><p class="m-text">Writing: notes, figures and the next draft.</p></li>
+      <li class="dy-hour"><time class="m-text-7" datetime="19:00">19:00</time><p class="m-text">A last check on the experiment, then out into Greenwich Village.</p></li>
     </ol>
   </div>
 </section>
-<!-- kitchen: a menu of five dishes with prices drawn between hairlines, beside three photos -->
+<!-- kitchen: selected papers, posters and talks between hairlines, beside three photos -->
 <section id="table" class="l-sec" data-8b-section="kitchen" aria-labelledby="table-title">
-  <p class="m-rail">The table</p>
+  <p class="m-rail">Work</p>
   <div class="tb-wrap">
     <div class="tb-copy">
-      <h2 id="table-title" class="m-text-3"><span>The long table</span><span>by the stove</span></h2>
-      <p class="m-text" data-8b-motion="steam">Food here is simple and warm: what grows around the lake, what our smokehouse makes, and what the baker in Holm sends over at seven.</p>
+      <h2 id="table-title" class="m-text-3"><span>Selected</span><span>work</span></h2>
+      <p class="m-text" data-8b-motion="steam">A patent application from my Ph.D. research, and conference presentations from my undergraduate work on drug resistance in fungi.</p>
       <ul class="tb-menu" data-8b-items=":scope > .tb-dish">
-        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Soup of the day</h3><p class="m-text-6">Mushroom, nettle or roots, with rye and cultured butter</p><p class="tb-price m-text-5">£9</p></li>
-        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Smoked trout</h3><p class="m-text-6">From our smokehouse, with new potatoes and dill</p><p class="tb-price m-text-5">£14</p></li>
-        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Rye and butter</h3><p class="m-text-6">Dark rye baked in Holm, salted butter, pickled cucumber</p><p class="tb-price m-text-5">£5</p></li>
-        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Birch-leaf tea</h3><p class="m-text-6">With nettle and honey, poured all day by the stove</p><p class="tb-price m-text-5">£3</p></li>
-        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Sea-buckthorn tonic</h3><p class="m-text-6">Sharp, cold and orange, for after the lake</p><p class="tb-price m-text-5">£4</p></li>
+        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">NUE regulons conserved model-to-crop enhance machine learning predictions of nitrogen use efficiency in lab and field</h3><p class="m-text-6">Patent · U.S. Patent App. No. 63/793,851, provisional · Coruzzi G, Huang J, Jeffers T, Hill A</p><p class="tb-price m-text-5">2025</p></li>
+        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Antioxidants reverse DNA damage caused by fluconazole in the pathogenic fungus <i>Cryptococcus neoformans</i></h3><p class="m-text-6">American Society for Biochemistry and Molecular Biology Conference, Philadelphia · Hill A, Buccilli R, Bodner N, Chandrasekaran S</p><p class="tb-price m-text-5">2022</p></li>
+        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Antioxidant PDTC reverses inhibition in polyploidy caused by fluconazole in <i>Cryptococcus neoformans</i></h3><p class="m-text-6">SE IDeA Regional Conference, San Juan, Puerto Rico · Hill A, Buccilli R, Chandrasekaran S</p><p class="tb-price m-text-5">2021</p></li>
+        <li class="tb-dish"><span class="tb-rule" data-8b-motion="rule" data-8b-enter="94%"></span><h3 class="m-text-5">Effects of antioxidants on fluconazole in <i>Cryptococcus neoformans</i></h3><p class="m-text-6">SC INBRE Science Symposium, online · Hill A, Chandrasekaran S</p><p class="tb-price m-text-5">2021</p></li>
       </ul>
     </div>
     <div class="tb-photos">
@@ -1260,134 +1261,131 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
     </div>
   </div>
 </section>
-<!-- house: a photo of the bathhouse cut into vertical boards that slide into line, beside two paragraphs and a link (animation: scene:house-slats) -->
+<!-- house: the center, a photo cut into vertical boards beside two paragraphs and a link (animation: scene:house-slats) -->
 <section id="house" class="l-sec" data-8b-section="house" aria-labelledby="house-title">
-  <p class="m-rail">The house</p>
+  <p class="m-rail">The center</p>
   <div class="hs-grid">
     <figure class="m-photo hs-photo"><img src="https://images.unsplash.com/photo-1558868630-ecfdd6306e51?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8N3x8bGFrZSUyMHNob3JlJTIwZHVzayUyMGNhYmluJTIwbGlnaHRzfGVufDF8MHx8fDE3OTEzODQyMTN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=950&q=60" alt="The bathhouse on stilts at the water's edge, its glass rest room lit at dusk" width="1600" height="1067" loading="lazy"></figure>
     <div class="hs-copy">
-      <h2 id="house-title" class="m-text-3"><span>A house built</span><span>for the weather</span></h2>
-      <p class="m-text" data-8b-motion="steam">Charred larch outside, alder and aspen inside, glass wherever the lake is. The house sits low on its stilts so the mist rolls under it, and every bench in it faces the water.</p>
-      <p class="m-text" data-8b-motion="steam">We heat with wood from our own forest, and rain from the roof fills the cold tubs. In winter the snow on the roof tells you which room is hottest.</p>
-      <a class="m-link" href="#visit"><span class="m-link__label">Come and see it</span></a>
+      <h2 id="house-title" class="m-text-3"><span>A building made</span><span>for crossing over</span></h2>
+      <p class="m-text" data-8b-motion="steam">NYU’s Center for Genomics and Systems Biology sits at 12 Waverly Place, a block from Washington Square Park, within the Department of Biology. Its open loft laboratories put experimental and computational scientists side by side.</p>
+      <p class="m-text" data-8b-motion="steam">The Genomics Core is on the eighth floor, so the distance between a question and its sequencing data is a few flights of stairs.</p>
+      <a class="m-link" href="#visit"><span class="m-link__label">Find me there</span></a>
     </div>
   </div>
 </section>
-<!-- pricing: three timed passes on an 08-22 time axis with a marker that sweeps across and lights the pass it is inside (animation: scene:passes-hours) -->
+<!-- pricing: education path on a 2014-2028 axis (axis value = 8 + year - 2014) with a marker that sweeps across (animation: scene:passes-hours) -->
 <section id="passes" class="l-sec" data-8b-section="pricing" aria-labelledby="passes-title">
-  <p class="m-rail">Passes</p>
+  <p class="m-rail">Path</p>
   <div class="ps-head">
-    <h2 id="passes-title" class="m-text-3"><span>Choose</span><span>your hours</span></h2>
-    <p class="m-text-5" data-8b-motion="steam">Every pass includes a robe, towels, all four saunas, the lake and tea by the stove.</p>
+    <h2 id="passes-title" class="m-text-3"><span>From Winnsboro</span><span>to Waverly Place</span></h2>
+    <p class="m-text-5" data-8b-motion="steam">Early college in South Carolina, two degrees at Furman, and a Ph.D. at NYU.</p>
   </div>
   <div class="ps-board">
-    <ol class="ps-axis m-text-4" aria-hidden="true"><li>08</li><li>10</li><li>12</li><li>14</li><li>16</li><li>18</li><li>20</li><li>22</li></ol>
+    <ol class="ps-axis m-text-4" aria-hidden="true"><li>2014</li><li>2016</li><li>2018</li><li>2020</li><li>2022</li><li>2024</li><li>2026</li><li>2028</li></ol>
     <ul class="ps-list" data-8b-items=":scope > .ps-pass" data-8b-fixed="3">
       <li class="ps-pass" data-from="8" data-to="12">
         <div class="ps-track" aria-hidden="true"><span class="ps-band"></span></div>
-        <h3 class="m-text-7">Morning</h3>
-        <p class="m-text-6"><time datetime="08:00">08:00</time>–<time datetime="12:00">12:00</time>, coffee and rye at the stove</p>
-        <p class="ps-price m-text-5">£38</p>
-        <a class="m-link" href="#visit"><span class="m-link__label">Book a morning</span></a>
+        <h3 class="m-text-7">STEM Early College Academy</h3>
+        <p class="m-text-6">2014–2018, Winnsboro, SC: an Associate of Science from Midlands Technical College alongside a high school diploma, in a cohort of ten</p>
+        <p class="ps-price m-text-5">A.S.</p>
+        <a class="m-link" href="#round"><span class="m-link__label">How I work</span></a>
       </li>
-      <li class="ps-pass" data-from="8" data-to="22">
+      <li class="ps-pass" data-from="12" data-to="16">
         <div class="ps-track" aria-hidden="true"><span class="ps-band"></span></div>
-        <h3 class="m-text-7">Full day</h3>
-        <p class="m-text-6"><time datetime="08:00">08:00</time>–<time datetime="22:00">22:00</time>, lunch at the long table included</p>
-        <p class="ps-price m-text-5">£64</p>
-        <a class="m-link" href="#visit"><span class="m-link__label">Book a full day</span></a>
+        <h3 class="m-text-7">Furman University</h3>
+        <p class="m-text-6">2018–2022: B.S. Integrative Biology, cum laude, and B.S. Information Technology; SC INBRE Summer Research Fellow</p>
+        <p class="ps-price m-text-5">B.S.</p>
+        <a class="m-link" href="#table"><span class="m-link__label">See the presentations</span></a>
       </li>
-      <li class="ps-pass" data-from="17" data-to="22">
+      <li class="ps-pass" data-from="16" data-to="20">
         <div class="ps-track" aria-hidden="true"><span class="ps-band"></span></div>
-        <h3 class="m-text-7">Evening</h3>
-        <p class="m-text-6"><time datetime="17:00">17:00</time>–<time datetime="22:00">22:00</time>, lanterns on the jetty and the smoke sauna</p>
-        <p class="ps-price m-text-5">£42</p>
-        <a class="m-link" href="#visit"><span class="m-link__label">Book an evening</span></a>
+        <h3 class="m-text-7">New York University</h3>
+        <p class="m-text-6">2022–present: Ph.D. candidate in Biology, Plant Systems Biology Lab; NIH QBIST trainee 2023–2024</p>
+        <p class="ps-price m-text-5">Ph.D.</p>
+        <a class="m-link" href="#lake"><span class="m-link__label">See the research</span></a>
       </li>
     </ul>
     <span class="ps-marker" aria-hidden="true"></span>
   </div>
-  <p class="ps-note m-text-6">Under-16s bathe free with an adult on weekend mornings. Ten-visit cards and gift cards for any pass are sold at the desk and by email.</p>
+  <p class="ps-note m-text-6">Also: Frontiers and Techniques in Plant Science, Cold Spring Harbor Laboratory (2024), and the NYU Biology Kopac Teaching Award (2026).</p>
 </section>
 <!-- faq: six questions in native details elements beside a heading -->
 <section id="questions" class="l-sec" data-8b-section="faq" aria-labelledby="questions-title">
   <p class="m-rail">Questions</p>
   <div class="qs-grid">
-    <h2 id="questions-title" class="m-text-3"><span>Before</span><span>your first round</span></h2>
+    <h2 id="questions-title" class="m-text-3"><span>A few</span><span>quick answers</span></h2>
     <div class="qs-list" data-8b-items=":scope > details" data-8b-motion="steam" data-steam-items=":scope > details">
-      <details><summary class="m-text-5">Do I need to book?</summary><p class="m-text">Weekends and evenings fill up, so book ahead. On weekday mornings you can usually walk in; ask at the desk.</p></details>
-      <details><summary class="m-text-5">What should I bring?</summary><p class="m-text">Nothing at all. A robe, towels, slippers and a locker are included. Bring a swimsuit if you prefer one for the lake.</p></details>
-      <details><summary class="m-text-5">Is bathing mixed?</summary><p class="m-text">Yes, every day except Tuesday evenings, which are for women only. Swimwear or a towel in all shared rooms.</p></details>
-      <details><summary class="m-text-5">I am new to saunas. Where do I start?</summary><p class="m-text">Begin in the herb steam and keep the first rounds short. A host walks first-timers through the round at ten and at three.</p></details>
-      <details><summary class="m-text-5">Can I come if I am pregnant or have a heart condition?</summary><p class="m-text">Please ask your doctor first. The steam room and the rest room are gentle; the smoke sauna and the lake are not.</p></details>
-      <details><summary class="m-text-5">Do you sell gift cards?</summary><p class="m-text">Yes, for any pass, by email or at the desk. They are valid for a year from the day you buy them.</p></details>
+      <details><summary class="m-text-5">What do you study?</summary><p class="m-text">How plants use nitrogen. I look for the gene networks that control nitrogen use efficiency and are shared between the model plant Arabidopsis and crops like rice, a step toward crops that make better use of nitrogen.</p></details>
+      <details><summary class="m-text-5">Which lab are you in?</summary><p class="m-text">The Plant Systems Biology Lab of Prof. Gloria M. Coruzzi, part of NYU’s Center for Genomics and Systems Biology in the Department of Biology.</p></details>
+      <details><summary class="m-text-5">What is systems biology?</summary><p class="m-text">Instead of studying one gene or protein at a time, systems biology looks at how many parts interact, using large datasets and models to explain behavior that no single part shows alone.</p></details>
+      <details><summary class="m-text-5">Do you teach?</summary><p class="m-text">Yes. Since spring 2024 I have been a teaching adjunct for BIOL-GA 1130 at NYU, writing the weekly recitation lessons and computational exercises on NGS, Linux and NYU’s high-performance computer. In 2026 I received the Kopac Teaching Award.</p></details>
+      <details><summary class="m-text-5">What did you work on before plants?</summary><p class="m-text">At Furman I studied antifungal drug resistance in <i>Cryptococcus neoformans</i> with Dr. Srikripa Chandrasekaran. My Ph.D. rotations covered chromatin loops in <i>C. elegans</i> (Ercan Lab) and human genetic variation in the 1000 Genomes data (Hochwagen Lab).</p></details>
+      <details><summary class="m-text-5">Can I see your full CV?</summary><p class="m-text">Yes. Email me and I’ll send the latest version.</p></details>
     </div>
   </div>
 </section>
-<!-- contact: how to get there and contact details beside a day-request form, closed by a large name that condenses out of mist (animation: scene:visit-name) -->
+<!-- contact: where to find me and contact details beside a message form, closed by a large name (animation: scene:visit-name) -->
 <section id="visit" class="l-sec" data-8b-section="contact" aria-labelledby="visit-title">
-  <p class="m-rail">Visit</p>
+  <p class="m-rail">Contact</p>
   <div class="vs-grid">
     <div class="vs-info">
-      <h2 id="visit-title" class="m-text-3"><span>Forty minutes</span><span>from the city</span></h2>
-      <p class="m-text" data-8b-motion="steam">Take the train to Holm, then our shuttle from the station (six minutes) or the shore path on foot (twenty-five). There is parking for twelve cars behind the woodshed.</p>
+      <h2 id="visit-title" class="m-text-3"><span>Let’s talk</span><span>science</span></h2>
+      <p class="m-text" data-8b-motion="steam">Questions about my research, an idea for a collaboration, or just want to compare notes? Email is the fastest way to reach me.</p>
       <dl class="vs-facts m-text">
-        <div><dt class="m-text-4">Address</dt><dd><address>Example Lane 1<br>Holm, on Ellery Water</address></dd></div>
-        <div><dt class="m-text-4">Hours</dt><dd>Daily 08:00–22:00<br>Smoke sauna Thu–Sun from 15:00</dd></div>
-        <div><dt class="m-text-4">Phone</dt><dd><a data-8b-placeholder="phone" href="tel:+442000000000">+44 20 0000 0000</a></dd></div>
-        <div><dt class="m-text-4">Email</dt><dd><a data-8b-placeholder="email" href="mailto:hello@brume.example">hello@brume.example</a></dd></div>
+        <div><dt class="m-text-4">Where</dt><dd><address>Center for Genomics and Systems Biology<br>12 Waverly Place, New York, NY 10003</address></dd></div>
+        <div><dt class="m-text-4">Department</dt><dd>Department of Biology<br>New York University</dd></div>
+        <div><dt class="m-text-4">Lab</dt><dd>Plant Systems Biology<br>Prof. Gloria M. Coruzzi</dd></div>
+        <div><dt class="m-text-4">Email</dt><dd><a href="mailto:amarirhill@gmail.com">amarirhill@gmail.com</a></dd></div>
       </dl>
     </div>
-    <form data-8b-placeholder="form" class="vs-form m-surface" action="#" method="post" novalidate data-ok="Thank you. We will confirm your day by email within a few hours." data-error="Please add a date, your name and an email address.">
-      <h3 class="m-text-7 is-wide">Request a day</h3>
-      <label class="m-field"><span class="m-field__label">Date</span><input class="m-field__input" type="date" name="date" required></label>
-      <label class="m-field"><span class="m-field__label">Guests</span><select class="m-field__input" name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></label>
-      <label class="m-field is-wide"><span class="m-field__label">Pass</span><select class="m-field__input" name="pass"><option>Morning, 08:00–12:00</option><option selected>Full day, 08:00–22:00</option><option>Evening, 17:00–22:00</option></select></label>
+    <form data-8b-placeholder="form" class="vs-form m-surface" action="#" method="post" novalidate data-ok="Thank you. I’ll reply by email soon." data-error="Please add your name, an email address and a message.">
+      <h3 class="m-text-7 is-wide">Send a message</h3>
       <label class="m-field"><span class="m-field__label">Name</span><input class="m-field__input" type="text" name="name" autocomplete="name" required></label>
       <label class="m-field"><span class="m-field__label">Email</span><input class="m-field__input" type="email" name="email" autocomplete="email" required></label>
-      <label class="m-field is-wide"><span class="m-field__label">Anything we should know</span><textarea class="m-field__input" name="note" rows="3"></textarea></label>
-      <div class="is-wide"><button class="m-btn" type="submit"><span class="m-btn__label">Send request</span></button></div>
+      <label class="m-field is-wide"><span class="m-field__label">Topic</span><select class="m-field__input" name="topic"><option selected>Research collaboration</option><option>Mentoring or advice</option><option>Talk or event</option><option>Something else</option></select></label>
+      <label class="m-field is-wide"><span class="m-field__label">Message</span><textarea class="m-field__input" name="note" rows="4" required></textarea></label>
+      <div class="is-wide"><button class="m-btn" type="submit"><span class="m-btn__label">Send message</span></button></div>
       <p class="vs-status m-text" role="status" aria-live="polite"></p>
     </form>
   </div>
-  <p class="vs-name m-text-2" aria-hidden="true" data-8b-split="chars" style="--len:5">Brume</p>
+  <p class="vs-name m-text-2" aria-hidden="true" data-8b-split="chars" style="--len:5">Amari</p>
 </section>
 </main>
-<!-- footer: a Book a day line, four columns (links, address, hours, contact), and a base line with readings, the copyright and a Top link -->
+<!-- footer: a Get in touch line, four columns (links, location, focus, elsewhere), and a base line -->
 <footer id="footer" data-8b-section="footer">
-  <div class="ft-next"><span class="ft-rule" data-8b-motion="rule" data-8b-enter="94%"></span><a href="#visit">Book a day</a></div>
+  <div class="ft-next"><span class="ft-rule" data-8b-motion="rule" data-8b-enter="94%"></span><a href="#visit">Get in touch</a></div>
   <div class="ft-grid">
     <div>
-      <h2 class="m-text-4">Brume</h2>
+      <h2 class="m-text-4">Amari R. Hill</h2>
       <ul>
-        <li><a class="m-link-2" href="#round">The round</a></li>
-        <li><a class="m-link-2" href="#saunas">Saunas</a></li>
-        <li><a class="m-link-2" href="#day">A day</a></li>
-        <li><a class="m-link-2" href="#passes">Passes</a></li>
-        <li><a class="m-link-2" href="#questions">Questions</a></li>
+        <li><a class="m-link-2" href="#round">Approach</a></li>
+        <li><a class="m-link-2" href="#saunas">Toolkit</a></li>
+        <li><a class="m-link-2" href="#lake">Research</a></li>
+        <li><a class="m-link-2" href="#table">Selected work</a></li>
+        <li><a class="m-link-2" href="#passes">Path</a></li>
       </ul>
     </div>
     <div>
-      <h2 class="m-text-4">Find us</h2>
-      <address class="m-text-6">Example Lane 1<br>Holm, on Ellery Water<br>40 min by train from the city</address>
+      <h2 class="m-text-4">Find me</h2>
+      <address class="m-text-6">NYU Center for Genomics<br>and Systems Biology<br>12 Waverly Place, New York, NY 10003</address>
     </div>
     <div>
-      <h2 class="m-text-4">Hours</h2>
-      <p class="m-text-6">Daily 08:00–22:00<br>Smoke sauna Thu–Sun from 15:00<br>Closed 24–25 December</p>
+      <h2 class="m-text-4">Focus</h2>
+      <p class="m-text-6">Plant systems biology<br>Nitrogen use efficiency<br>Gene regulatory networks</p>
     </div>
     <div>
-      <h2 class="m-text-4">Keep in touch</h2>
+      <h2 class="m-text-4">Contact</h2>
       <ul>
-        <li><a data-8b-placeholder="phone" class="m-link-2" href="tel:+442000000000">+44 20 0000 0000</a></li>
-        <li><a data-8b-placeholder="email" class="m-link-2" href="mailto:hello@brume.example">hello@brume.example</a></li>
-        <li><a data-8b-placeholder="social" class="m-link-2" href="https://instagram.com/">Instagram</a></li>
+        <li><a class="m-link-2" href="mailto:amarirhill@gmail.com">amarirhill@gmail.com</a></li>
+        <li><a class="m-link-2" href="#visit">Send a message</a></li>
       </ul>
     </div>
   </div>
   <div class="ft-base m-text-6">
-    <span>© 2026 Brume Baths · Design: <a href="https://8b.com/" style="color:inherit" data-8b-credit>8B</a></span>
-    <span>Sauna <span class="is-hot">86°</span></span>
-    <span>Lake <span class="is-cold">7°</span></span>
+    <span>© 2026 Amari R. Hill · Design: <a href="https://8b.com/" style="color:inherit" data-8b-credit>8B</a></span>
+    <span>Center <span class="is-hot">CGSB</span></span>
+    <span>University <span class="is-cold">NYU</span></span>
     <a class="m-link-2 ft-top" href="#arrival">Top</a>
   </div>
 </footer>
@@ -1445,8 +1443,6 @@ document.querySelectorAll('#passes .ps-pass').forEach(pass => {
 (() => {
   const form = document.querySelector('#visit .vs-form');
   const status = form.querySelector('.vs-status');
-  const date = form.querySelector('input[type="date"]');
-  date.min = new Date().toISOString().slice(0, 10);
   form.addEventListener('submit', event => {
     event.preventDefault();
     const ok = form.checkValidity();
