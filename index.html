@@ -464,7 +464,7 @@ select.m-field__input option { background: var(--color-7); color: var(--color-2)
   }
   #arrival .op-hold { position: absolute; inset: 0; overflow: hidden; }
   #arrival .op-lake-wrap { position: absolute; inset: 0; }
-  #arrival .op-lake { width: 100%; height: 100%; object-fit: cover; object-position: 50% 52%; }
+  #arrival .op-lake { width: 100%; height: 100%; object-fit: cover; object-position: 62% 50%; filter: brightness(.5) saturate(.85); }
   #arrival .op-lake-wrap::after {
     content: "";
     position: absolute;
@@ -620,7 +620,7 @@ select.m-field__input option { background: var(--color-7); color: var(--color-2)
   #saunas .sa-list { margin-top: clamp(56px, 7vw, 104px); border-top: 1px solid color-mix(in oklab, var(--color-2) 16%, transparent); }
   #saunas .sa-row {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr) clamp(120px, 15vw, 210px);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
     gap: 20px clamp(24px, 4vw, 64px);
     align-items: start;
     padding-block: clamp(36px, 5vw, 64px);
@@ -639,7 +639,7 @@ select.m-field__input option { background: var(--color-7); color: var(--color-2)
   #saunas .sa-facts dd { color: var(--color-2); }
   #saunas .sa-photo { aspect-ratio: 4 / 5; }
   @media (max-width: 900px) {
-    #saunas .sa-row { grid-template-columns: minmax(0, 1fr) 112px; }
+    #saunas .sa-row { grid-template-columns: minmax(0, 1fr); }
     #saunas .sa-scale { grid-column: 1 / -1; }
     #saunas .sa-photo { grid-column: 2; grid-row: 2; }
   }
@@ -1045,14 +1045,14 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
 <!-- opening (animation: scene:arrival) -->
 <section id="arrival" data-8b-section="opening" aria-label="Amari R. Hill, NYU Center for Genomics and Systems Biology">
   <div class="op-stage-wrap"><div class="op-stage">
-    <img class="op-room" src="https://images.unsplash.com/photo-1758861356142-546a3822ab1a?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTJ8fHNhdW5hJTIwaW50ZXJpb3IlMjB3aW5kb3d8ZW58MXwwfHx8MTc5MTM4NDEwMXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="A wood stove burning in the rest room, with a glass wall onto the lake and the pines" width="1600" height="1200" fetchpriority="low">
+    <img class="op-room" src="images/about-greenhouse.jpg" alt="Two researchers tending tall corn plants under the greenhouse lights" width="2000" height="1333" fetchpriority="low">
     <div class="op-room-shade"></div>
     <div class="op-room-dark"></div>
   </div></div>
   <div class="op-first">
     <div class="op-hold">
       <div class="op-lake-wrap">
-        <img class="op-lake" src="https://images.unsplash.com/photo-1781883377971-0984fccbbaa7?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTB8fGZvZ2d5JTIwcGluZSUyMGZvcmVzdCUyMGxha2V8ZW58MXwwfHx8MTc5MTM4NDEyN3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="Mist lying on the dark water of Ellery Water below a pine forest" width="1600" height="857" fetchpriority="high">
+        <img class="op-lake" src="images/hero-greenhouse.jpg" alt="Rows of tall corn plants under warm greenhouse lights, with a researcher working among them" width="2200" height="1467" fetchpriority="high">
       </div>
       <div class="op-veil" aria-hidden="true"><span class="op-fog op-fog--1"></span><span class="op-fog op-fog--2"></span><span class="op-fog op-fog--3"></span></div>
     </div>
@@ -1078,9 +1078,8 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
       <a class="m-link" href="#saunas"><span class="m-link__label">See the toolkit</span></a>
     </div>
     <div class="op-floats">
-      <figure class="m-photo op-float op-float--1" data-depth="160"><img src="https://images.unsplash.com/photo-1749561532113-80b8e0f918bd?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8d2F0ZXIlMjBwb3VyZWQlMjBzYXVuYSUyMHN0b25lc3xlbnwxfDF8fHwxNzkxMzg0MTg5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=290&q=60" alt="Steam rising from hot stones as water is poured from a ladle" width="1600" height="2400" loading="lazy"></figure>
-      <figure class="m-photo op-float op-float--2" data-depth="300"><img src="https://images.unsplash.com/photo-1625774725140-39e0ab1358f6?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTJ8fHdhdGVyJTIwcmlwcGxlJTIwZGFya3xlbnwxfDF8fHwxNzkxMzg0MTkyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=210&q=60" alt="Rings spreading on still lake water at dusk" width="1600" height="2844" loading="lazy"></figure>
-      <figure class="m-photo op-float op-float--3" data-depth="220"><img src="https://images.unsplash.com/photo-1770625467797-e1945217b73a?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8c3RlYW0lMjByb29tJTIwdGlsZXN8ZW58MXwxfHx8MTc5MTM4NDIxMXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=320&q=60" alt="Low light along the benches of the window sauna" width="1600" height="2400" loading="lazy"></figure>
+      <figure class="m-photo op-float op-float--1" data-depth="160"><img src="images/float-microscope.jpg" alt="A researcher in purple gloves preparing a slide at a microscope" width="675" height="900" loading="lazy"></figure>
+      <figure class="m-photo op-float op-float--2" data-depth="300"><img src="images/float-seedlings.jpg" alt="Young seedlings in labeled pots inside a growth chamber" width="600" height="800" loading="lazy"></figure>
     </div>
   </div>
 </section>
@@ -1117,9 +1116,9 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
     </ol>
     <div class="rd-aside">
       <div class="rd-frame">
-        <figure class="rd-shot rd-shot--heat"><img src="https://images.unsplash.com/photo-1741601273990-df3fca1d2bd9?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8M3x8d2F0ZXIlMjBwb3VyZWQlMjBzYXVuYSUyMHN0b25lc3xlbnwxfDF8fHwxNzkxMzg0MTg5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=510&q=60" alt="A bather pours a ladle of water onto the hot stones" width="1600" height="2400" loading="lazy"></figure>
-        <figure class="rd-shot rd-shot--cold"><img src="https://images.unsplash.com/photo-1677467836095-c153c1f7a35b?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NHx8aWNlJTIwaG9sZSUyMGZyb3plbiUyMGxha2UlMjBzd2ltbWluZ3xlbnwxfDF8fHwxNzkxMzg0MTkwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=510&q=60" alt="A round hole cut through snow and ice into the dark lake" width="1600" height="2133" loading="lazy"></figure>
-        <figure class="rd-shot rd-shot--rest"><img src="https://images.unsplash.com/photo-1733324769520-4b26642779de?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8cmVzdGluZyUyMGJsYW5rZXQlMjB0ZWElMjB3aW5kb3d8ZW58MXwxfHx8MTc5MTM4NDE5MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=510&q=60" alt="A guest resting under a wool blanket with a warm drink by the window" width="1600" height="2240" loading="lazy"></figure>
+        <figure class="rd-shot rd-shot--heat"><img src="images/step-experiment.jpg" alt="A researcher at a microscope, looking up from the bench" width="829" height="1100" loading="lazy"></figure>
+        <figure class="rd-shot rd-shot--cold"><img src="images/step-sequence.jpg" alt="Two researchers working side by side at a lab bench" width="1600" height="1067" style="object-position: 72% 50%" loading="lazy"></figure>
+        <figure class="rd-shot rd-shot--rest"><img src="images/step-model.jpg" alt="Two researchers standing beside a scientific poster" width="825" height="1100" style="object-position: 50% 50%" loading="lazy"></figure>
         <span class="rd-tint rd-tint--hot" aria-hidden="true"></span>
         <span class="rd-tint rd-tint--cold" aria-hidden="true"></span>
       </div>
@@ -1145,7 +1144,6 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
         <p class="m-text">Hands-on experimental work: preparing samples, running assays and keeping careful records so every result can be reproduced.</p>
         <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Generating data</dd></div><div><dt>Tools</dt><dd>Western blot, C. elegans, antifungal assays</dd></div></dl>
       </div>
-      <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1649178690667-e519628c015e?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Nnx8aWNlJTIwaG9sZSUyMGZyb3plbiUyMGxha2UlMjBzd2ltbWluZ3xlbnwxfDF8fHwxNzkxMzg0MTkwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=200&q=60" alt="Two swimmers in an ice channel on the lake at dusk" width="1600" height="2463" loading="lazy"></figure>
     </li>
     <li class="sa-row" data-tone="warm" style="--saunas-span-sa-line-clippath-to-2: 55%">
       <div class="sa-scale">
@@ -1157,7 +1155,6 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
         <p class="m-text">Library preparation and sequencing to read DNA and RNA at scale, from whole genomes to gene expression.</p>
         <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Measuring the system</dd></div><div><dt>Tools</dt><dd>NGS, single-cell sequencing, 1000 Genomes data</dd></div></dl>
       </div>
-      <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1660735699345-acf9a94cb271?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MXx8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=360&q=60" alt="A cloud of steam rolling off the stove in a pine-lined room" width="1600" height="1067" loading="lazy"></figure>
     </li>
     <li class="sa-row" data-tone="hot" style="--saunas-span-sa-line-clippath-to-2: 25%">
       <div class="sa-scale">
@@ -1169,7 +1166,6 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
         <p class="m-text">Pipelines that clean, align and quantify sequencing data, written to run on a computing cluster and be rerun by anyone.</p>
         <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Turning reads into results</dd></div><div><dt>Tools</dt><dd>Linux, NYU high-performance computer</dd></div></dl>
       </div>
-      <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1712659601630-df4ad47defc8?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=360&q=60" alt="Pale wooden benches beside a tall window onto the frozen lake" width="1600" height="1067" loading="lazy"></figure>
     </li>
     <li class="sa-row" data-tone="hot" style="--saunas-span-sa-line-clippath-to-2: 5%">
       <div class="sa-scale">
@@ -1181,13 +1177,12 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
         <p class="m-text">Statistics, networks and models that connect the parts and make predictions worth testing back at the bench.</p>
         <dl class="sa-facts m-text-6"><div><dt>Used for</dt><dd>Explaining the whole</dd></div><div><dt>Tools</dt><dd>Gene networks, XGBoost</dd></div></dl>
       </div>
-      <figure class="m-photo sa-photo"><img src="https://images.unsplash.com/photo-1743286159555-ea765c1bc5e6?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8M3x8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=360&q=60" alt="Dark log walls, hot stones and a water bucket in the smoke sauna" width="1600" height="1067" loading="lazy"></figure>
     </li>
   </ol>
 </section>
 <!-- statement: a five-line statement over a dark photo (animation: scene:steam-wave) -->
 <section id="steam" data-8b-section="statement" aria-labelledby="steam-title">
-  <div class="st-bg"><img src="https://images.unsplash.com/photo-1660735697672-46b9bdbccc17?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Nnx8c21va2UlMjBzYXVuYSUyMGRhcmt8ZW58MXwwfHx8MTc5MTM4NDIxMnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="" width="1600" height="1067" loading="lazy"></div>
+  <div class="st-bg"></div>
   <div class="st-inner l-sec">
     <p class="m-rail">Why</p>
     <div>
@@ -1206,7 +1201,7 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
 <!-- lake: current research, a wide photo beside a heading, a paragraph and four facts -->
 <section id="lake" class="l-sec" data-8b-section="lake" aria-labelledby="lake-title">
   <p class="m-rail">Research</p>
-  <figure class="m-photo lk-photo" data-8b-motion="depth"><img src="https://images.unsplash.com/photo-1468258189056-318bbd4b6085?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8Zm9nZ3klMjBwaW5lJTIwZm9yZXN0JTIwbGFrZXxlbnwxfDB8fHwxNzkxMzg0MTI3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1090&q=60" alt="The boardwalk across the reeds disappearing into fog and pines" width="1600" height="1067" loading="lazy"></figure>
+  <figure class="m-photo lk-photo" data-8b-motion="depth"><img src="images/research-corn.jpg" alt="A researcher among tall corn plants in the greenhouse" width="1800" height="1200" style="object-position: 42% 40%" loading="lazy"></figure>
   <div class="lk-copy">
     <h2 id="lake-title" class="m-text-3"><span>What I’m</span><span>working on</span></h2>
     <p class="m-text" data-8b-motion="steam">Nitrogen and water shape crop yield, and the regulatory networks that respond to each work together. Using transcription factor target data (TARGET) from Arabidopsis and rice, I look for nitrogen-use-efficiency regulons conserved from model plant to crop, then use them to improve machine learning predictions of how efficiently plants use nitrogen. The approach is the subject of a provisional U.S. patent application filed in 2025.</p>
@@ -1221,8 +1216,7 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
 <!-- schedule: six times of a lab day over a held photo that goes from morning to night (animation: scene:day-light) -->
 <section id="day" data-8b-section="schedule" aria-labelledby="day-title">
   <div class="dy-stage-wrap"><div class="dy-stage">
-    <img class="dy-photo dy-morning" src="https://images.unsplash.com/photo-1761880702819-b2ba3973d00d?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8Zm9nZ3klMjBwaW5lJTIwZm9yZXN0JTIwbGFrZXxlbnwxfDB8fHwxNzkxMzg0MTI3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="Morning mist over the lake and the pines on the far shore" width="1600" height="1067" loading="lazy">
-    <img class="dy-photo dy-night" src="https://images.unsplash.com/photo-1782827928667-d99a358cb278?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8OXx8c2F1bmElMjBjYWJpbiUyMGxha2UlMjBuaWdodHxlbnwxfDB8fHwxNzkxMzg0MjEwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=60" alt="A lit cabin on the water at night below dark mountains" width="1600" height="1067" loading="lazy">
+    <img class="dy-photo dy-morning" src="images/day-lab.jpg" alt="A long, bright lab with benches and stocked shelves on both sides" width="2000" height="1333" loading="lazy">
     <span class="dy-tint dy-tint--dawn"></span>
     <span class="dy-tint dy-tint--dusk"></span>
     <span class="dy-shade"></span>
@@ -1255,9 +1249,9 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
       </ul>
     </div>
     <div class="tb-photos">
-      <figure class="m-photo tb-photo--bread" data-8b-motion="depth"><img src="https://images.unsplash.com/photo-1789152952866-6104d8837566?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8M3x8c291cCUyMGJvd2wlMjBkYXJrJTIwdGFibGV8ZW58MXwwfHx8MTc5MTM4NDIzM3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=580&q=60" alt="Slices of dark rye in a wooden bowl beside butter and seeds" width="1600" height="1067" loading="lazy"></figure>
-      <figure class="m-photo tb-photo--tea" data-8b-motion="depth"><img src="https://images.unsplash.com/photo-1674707429029-9de78da14b6b?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8OHx8aGVyYmFsJTIwdGVhJTIwcG90JTIwd29vZGVuJTIwdGFibGV8ZW58MXwxfHx8MTc5MTM4NDIzNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=250&q=60" alt="A black iron teapot on a wooden table in low sun" width="1600" height="2400" loading="lazy"></figure>
-      <figure class="m-photo tb-photo--soup" data-8b-motion="depth"><img src="https://images.unsplash.com/photo-1625940947631-908aa92ef5e7?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8bXVzaHJvb20lMjBzb3VwJTIwYm93bHxlbnwxfDB8fHwxNzkxMzg0MjU1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=660&q=60" alt="A bowl of mushroom soup held in both hands" width="1600" height="900" loading="lazy"></figure>
+      <figure class="m-photo tb-photo--bread" data-8b-motion="depth"><img src="images/work-group.jpg" alt="A group of students standing together on a brick path on campus" width="1200" height="900" loading="lazy"></figure>
+      <figure class="m-photo tb-photo--tea" data-8b-motion="depth"><img src="images/work-furman.jpg" alt="A student beside purple Furman University Biology banners" width="600" height="800" loading="lazy"></figure>
+      <figure class="m-photo tb-photo--soup" data-8b-motion="depth"><img src="images/work-library.jpg" alt="Three students posing together in a wood-paneled library" width="600" height="800" loading="lazy"></figure>
     </div>
   </div>
 </section>
@@ -1265,7 +1259,7 @@ if (matchMedia('(prefers-reduced-motion: no-preference)').matches && CSS.support
 <section id="house" class="l-sec" data-8b-section="house" aria-labelledby="house-title">
   <p class="m-rail">The center</p>
   <div class="hs-grid">
-    <figure class="m-photo hs-photo"><img src="https://images.unsplash.com/photo-1558868630-ecfdd6306e51?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8N3x8bGFrZSUyMHNob3JlJTIwZHVzayUyMGNhYmluJTIwbGlnaHRzfGVufDF8MHx8fDE3OTEzODQyMTN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=950&q=60" alt="The bathhouse on stilts at the water's edge, its glass rest room lit at dusk" width="1600" height="1067" loading="lazy"></figure>
+    <figure class="m-photo hs-photo"><img src="images/center-skyline.jpg" alt="Corn plants in a greenhouse with city towers beyond the glass" width="1400" height="933" style="object-position: 50% 50%" loading="lazy"></figure>
     <div class="hs-copy">
       <h2 id="house-title" class="m-text-3"><span>A building made</span><span>for crossing over</span></h2>
       <p class="m-text" data-8b-motion="steam">NYU’s Center for Genomics and Systems Biology sits at 12 Waverly Place, a block from Washington Square Park, within the Department of Biology. Its open loft laboratories put experimental and computational scientists side by side.</p>
